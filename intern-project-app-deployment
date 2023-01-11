@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: intern-project-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: intern-project-app
+  template:
+    metadata:
+      labels:
+        app: intern-project-app
+    spec:
+      containers:
+        - name: my-flask-app
+          image: danialumer876/intern-project-image:1.0
+          env:
+            - name: NAME
+              value: "Danial"
+

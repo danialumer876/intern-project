@@ -1,0 +1,11 @@
+control-plane:
+ssh -i ~/.ssh/internProjectKey danialumer876@34.125.122.87
+
+worker-1:
+ssh -i ~/.ssh/internProjectKey danialumer876@34.125.133.14
+
+worker-2
+ssh -i ~/.ssh/internProjectKey danialumer876@34.125.202.115
+
+worker-3
+ssh -i ~/.ssh/internProjectKey danialumer876@34.125.224.167
