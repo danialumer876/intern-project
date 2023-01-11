@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-flask-app
-          image: danialumer876/intern-project-image:1.0
+          image: danialumer876/intern-project-image:latest
           env:
             - name: NAME
               value: "Danial"
